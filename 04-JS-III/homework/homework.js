@@ -151,7 +151,7 @@ function diaDeLaSemana(numeroDeDia) {
   if (numeroDeDia === 1 || numeroDeDia === 7) {
     esFin = "Es fin de semana"
   } else {
-    esFin = "Es dia laboral"
+    esFin = "Es dia Laboral"
   }
   return esFin;
 } 
@@ -224,7 +224,7 @@ function breakStatement(numero) {
   return (i===11)?"Se interrumpió la ejecución":num2;
 }
 
-
+//Bien
 function continueStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
   //Guardar cada nuevo valor en un array.    
