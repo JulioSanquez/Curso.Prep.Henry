@@ -99,7 +99,7 @@ describe('nuevoUsuario(nombre, email, password)', function() {
   });
 });
 
-describe('tieneEmail(user)', function() {
+describe('tieneEmail(user)', function() { 
   it('should return true if the user object has a value for its email property', function() {
     expect(tieneEmail({ usernombre: 'Samuel', email: 'samuel@email.com' })).toEqual(true);
     expect(tieneEmail({ usernombre: 'Jhon', email: null })).toEqual(false);
