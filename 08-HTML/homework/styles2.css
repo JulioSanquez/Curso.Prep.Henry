@@ -1,0 +1,44 @@
+body{
+    color: white;
+    margin: 0;
+    padding-top: 5%;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 250vh;
+    text-align: center;
+
+    background: url(https://placeimg.com/1024/1024/people);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    background-color: rgba(70, 69, 69, .8);
+    border: 1px solid black;
+    margin: auto auto 1em auto;
+    height: 1.5em;
+    width: 50%;
+}
+.caja{
+    background-color: red;
+    border: 1px solid rgb(70, 69, 69);
+    color: wheat;
+    height: 22%;
+    margin: 1.5%;
+    width: 45%;
+}
+.c3{
+    height: 30.2%;
+}
+#flex-container{
+    background-color: rgba(70, 69, 69, .8);
+    border: 1px solid white;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: stretch;
+    margin: auto;
+    height: 170vh;
+    width: 90%;
+}
